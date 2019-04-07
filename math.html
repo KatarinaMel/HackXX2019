@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="math.css">
+
 	<title>Math</title>
 
 <!-- Utility functions-->
@@ -80,19 +83,37 @@ var result;
 		document.getElementById("opt1").innerHTML = options[0];
 		document.getElementById("opt2").innerHTML = options[1];
 		document.getElementById("opt3").innerHTML = options[2];
-		document.getElementById("opt1").style.backgroundColor = "LightGrey";
-		document.getElementById("opt2").style.backgroundColor = "LightGrey";
-		document.getElementById("opt3").style.backgroundColor = "LightGrey";
+		document.getElementById("opt1").style.backgroundColor = "Pink";
+		document.getElementById("opt2").style.backgroundColor = "Pink";
+		document.getElementById("opt3").style.backgroundColor = "Pink";
 	}
 </script>
 
 </head>
 <body>
 
-<h1 id="flashcard">start</h1>
-<button id="opt1" onclick = "updateFlashCard(1)">1</button>
-<button id="opt2" onclick = "updateFlashCard(2)">2</button>
-<button id="opt3" onclick="updateFlashCard(3)">3</button>
+<section class="jumbotron vertical-center">
+	<div class="container">
+		<div class="row text-center">
+			<h1 id="flashcard" class="text-center">start</h1>
+			</div>
+	</div>
+</section>
+
+<div class="btn-group btn-group-justified">
+	<div class="btn-group">
+		<button id="opt1" class="btn btn-block btn-style" onclick = "updateFlashCard(1)">1</button>
+	</div>
+
+	<div class="btn-group">
+		<button id="opt2" class="btn btn-block btn-style" onclick = "updateFlashCard(2)">2</button>
+	</div>
+
+	<div class="btn-group">
+		<button id="opt3" class="btn btn-block btn-style" onclick="updateFlashCard(3)">3</button>
+	</div>
+</div>
+
 <script type="text/javascript">
 updateFlashCard(-1);
 </script>

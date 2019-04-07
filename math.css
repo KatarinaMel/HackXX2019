@@ -1,0 +1,33 @@
+.jumbotron {
+    align-items: center;
+    align-content: center;
+    background-image: url("sprinkles.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.jumbotron h1 {
+    font-size: 90px;
+    font-weight: 700;
+    margin: 0;
+    color: black;
+}
+
+.vertical-center {
+    display: flex;
+    align-items: center;
+}
+
+.btn-style {
+    background-color: pink;
+    height: 50px;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+}

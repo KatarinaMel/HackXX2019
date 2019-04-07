@@ -1,0 +1,15 @@
+h1 {
+    font-size: 96px;
+    font-family: 'Curlz MT', fantasy;
+    font-weight: bold;
+    color: black;
+}
+
+body {
+    background-image: url("http://sfwallpaper.com/images/cute-background-photos-3.jpg");
+}
+
+tr {
+    font-size: 24px;
+    font-family: 'Brushstroke', fantasy;
+}

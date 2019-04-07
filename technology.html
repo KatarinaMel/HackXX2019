@@ -48,29 +48,46 @@
 
 <body>
 
-	<div class="jumbotron" id="displayContainer">
-		<div class="row">
-			<p id="display">display(</p>
-			<div id="box" ondrop="drop(event)" 
-					ondragover="allowDrop(event)"></div>
-			<p id="endDisplay">) </p>
+	<div class="col-sm-4" id="displayContainer">
+		<div class="container">
+			<div class="row">
+				<p id="display">display(</p>
+				<div id="box" ondrop="drop(event)" 
+						ondragover="allowDrop(event)"></div>
+				<p>)</p>
+			 </div>
 		</div>
 	</div>
 
-	<div class="jumbotron" id="wordList">
+	<div class="col-sm-3" id="wordList">
 		<div class="row">
-			<p id=0 class="col-sm-3" draggable="true" ondragstart="dragStart(event)">cat</p>
-			<p id=1 class="col-sm-3" draggable="true" ondragstart="dragStart(event)">dog</p>
-			<p id=2 class="col-sm-3" draggable="true" ondragstart="dragStart(event)">car</p>
-			<p id=3 class="col-sm-3" draggable="true" ondragstart="dragStart(event)">sun</p>
+			<p id=0 draggable="true" ondragstart="dragStart(event)">cat</p>
+		</div>
+
+		<div class="row">
+			<p id=1 draggable="true" ondragstart="dragStart(event)">dog</p>
+		</div>
+
+		<div class="row">
+			<p id=2 draggable="true" ondragstart="dragStart(event)">car</p>
+		</div>
+
+		<div class="row">
+			<p id=3 draggable="true" ondragstart="dragStart(event)">sun</p>
+		</div>
 		</div>
 	</div>
 
-	<div class="jumbotron" id="resultContainer">
-		<img id="result" src="#" width=250px height=250px>
-		<script>
-			document.getElementById("result").style.display = "none";
-		</script>
+	<div class="col-sm-5">	
+		<div class="container" id="resultContainer">
+			<div class="row">
+				<p>Output:</p>
+				<img id="result" width=250px height=250px border=none>
+				<script>
+					document.getElementById("result").style.display = "none";
+				</script>
+			</div>
+		</div>
 	</div>
 
 </body>

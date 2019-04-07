@@ -1,20 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
- #box { 
-	width: 100px;
-	height: 20px;
-	padding: 10px;
-	border: 1px solid #aaaaaa;
-	align-content: center;
-}
-</style>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="technology.css">
+
 	<title>Technology</title>
 
 	<script>
 		var imgArr = [
-			{name:"cat", image:"https://flyclipart.com/thumb2/cats-cats-cartoon-and-kitten-cartoon-607156.png"},
+			{name:"cat", image:"http://diysolarpanelsv.com/images/a-cat-clipart-16.jpg"},
 			{name:"dog", image:"https://i.ytimg.com/vi/hmqFksNBnPA/maxresdefault.jpg"},
 			{name:"car", image:"https://d3lp4xedbqa8a5.cloudfront.net/s3/digital-cougar-assets/whichcar-media/1786/lightning-mcqueen-cars.jpg"},
 			{name:"sun", image:"data:image/png;base64,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"}
@@ -43,7 +38,8 @@
 		// Generates the image of the word dropped in
 		function generateImage(wordId, boxElt) {
 			boxElt.removeChild(document.getElementById(wordId));
-			document.getElementById("result").src = imgArr[wordId].image;
+			document.getElementById("result").src = 
+				imgArr[wordId].image;
 			console.log(imgArr[wordId].image);
 			document.getElementById("result").style.display = "block";
 		}
@@ -51,18 +47,31 @@
 </head>
 
 <body>
-	<p>display (<div id="box" ondrop="drop(event)" ondragover="allowDrop(event)"></div>) </p>
 
-	<p id=0 draggable="true" ondragstart="dragStart(event)">cat</p>
-	<p id=1 draggable="true" ondragstart="dragStart(event)">dog</p>
-	<p id=2 draggable="true" ondragstart="dragStart(event)">car</p>
-	<p id=3 draggable="true" ondragstart="dragStart(event)">sun</p>
+	<div class="jumbotron" id="displayContainer">
+		<div class="row">
+			<p id="display">display(</p>
+			<div id="box" ondrop="drop(event)" 
+					ondragover="allowDrop(event)"></div>
+			<p id="endDisplay">) </p>
+		</div>
+	</div>
 
+	<div class="jumbotron" id="wordList">
+		<div class="row">
+			<p id=0 class="col-sm-3" draggable="true" ondragstart="dragStart(event)">cat</p>
+			<p id=1 class="col-sm-3" draggable="true" ondragstart="dragStart(event)">dog</p>
+			<p id=2 class="col-sm-3" draggable="true" ondragstart="dragStart(event)">car</p>
+			<p id=3 class="col-sm-3" draggable="true" ondragstart="dragStart(event)">sun</p>
+		</div>
+	</div>
 
-	<img id="result" src="#" width=250px height=250px>
-	<script>
-		document.getElementById("result").style.display = "none";
-	</script>
+	<div class="jumbotron" id="resultContainer">
+		<img id="result" src="#" width=250px height=250px>
+		<script>
+			document.getElementById("result").style.display = "none";
+		</script>
+	</div>
 
 </body>
 </html>

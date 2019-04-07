@@ -1,7 +1,14 @@
+body {
+    background-image: url("sprinkles_box.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .jumbotron {
     align-items: center;
     align-content: center;
-    background-image: url("sprinkles.jpg");
+    background-image: url("sprinkles_box.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -11,7 +18,7 @@
 }
 
 .jumbotron h1 {
-    font-size: 90px;
+    font-size: 150px;
     font-weight: 700;
     margin: 0;
     color: black;
@@ -23,7 +30,7 @@
 }
 
 .btn-style {
-    background-color: pink;
+    background-color: rgb(111, 252, 221);
     height: 50px;
     font-size: 24px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

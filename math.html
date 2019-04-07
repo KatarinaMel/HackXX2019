@@ -83,9 +83,9 @@ var result;
 		document.getElementById("opt1").innerHTML = options[0];
 		document.getElementById("opt2").innerHTML = options[1];
 		document.getElementById("opt3").innerHTML = options[2];
-		document.getElementById("opt1").style.backgroundColor = "Pink";
-		document.getElementById("opt2").style.backgroundColor = "Pink";
-		document.getElementById("opt3").style.backgroundColor = "Pink";
+		document.getElementById("opt1").style.backgroundColor = "rgb(111, 252, 221)";
+		document.getElementById("opt2").style.backgroundColor = "rgb(111, 252, 221)";
+		document.getElementById("opt3").style.backgroundColor = "rgb(111, 252, 221)";
 	}
 </script>
 
@@ -100,7 +100,9 @@ var result;
 	</div>
 </section>
 
-<div class="btn-group btn-group-justified">
+<div class="container buttonCntr">
+	<div class="row">
+<div class="btn-group btn-group-justified col-sm-8">
 	<div class="btn-group">
 		<button id="opt1" class="btn btn-block btn-style" onclick = "updateFlashCard(1)">1</button>
 	</div>
@@ -112,6 +114,8 @@ var result;
 	<div class="btn-group">
 		<button id="opt3" class="btn btn-block btn-style" onclick="updateFlashCard(3)">3</button>
 	</div>
+</div>
+</div>
 </div>
 
 <script type="text/javascript">

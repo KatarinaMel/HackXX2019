@@ -1,0 +1,71 @@
+h1{
+    color:red;
+    font-size: 250px;
+}
+
+.row{
+    display:flex
+}
+
+.imga{
+    width: 300;
+    height: 300;
+    margin:2px;
+}
+/* .environ{
+    display:inline;
+    width: 3;
+    height: 300;
+} */
+
+.animal{
+    /* background-image: url("https://cdn5.vectorstock.com/i/1000x1000/33/94/cartoon-winter-polar-arctic-or-antarctic-ice-vector-20923394.jpg"); */
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+    color: blue;
+
+  }
+
+  
+  #snow {
+    /* background-image: url("https://cdn5.vectorstock.com/i/1000x1000/33/94/cartoon-winter-polar-arctic-or-antarctic-ice-vector-20923394.jpg"); */
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+  }
+
+  #forest {
+    /* background-image: url("https://cdn5.vectorstock.com/i/1000x1000/33/94/cartoon-winter-polar-arctic-or-antarctic-ice-vector-20923394.jpg"); */
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+  }
+
+  #ocean {
+    /* background-image: url("https://cdn5.vectorstock.com/i/1000x1000/33/94/cartoon-winter-polar-arctic-or-antarctic-ice-vector-20923394.jpg"); */
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+  }
+
+  #savannah {
+    /* background-image: url("https://cdn5.vectorstock.com/i/1000x1000/33/94/cartoon-winter-polar-arctic-or-antarctic-ice-vector-20923394.jpg"); */
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+
+  }
+  #clear
+  {
+    /* background-image: url("https://cdn5.vectorstock.com/i/1000x1000/33/94/cartoon-winter-polar-arctic-or-antarctic-ice-vector-20923394.jpg"); */
+    width: 100px;
+    height: 100px;
+    display: inline
+
+  }

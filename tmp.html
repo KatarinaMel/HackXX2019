@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Test Page
+	</title>
+
+	<!-- Script to output +/- randomly -->
+	<script type="text/javascript">
+		
+	</script>
+
+	<script type="text/javascript">
+		function updateFlashCard() {
+			first_num = Math.floor((Math.random() * 10) + 1);
+			second_num = Math.floor((Math.random() * 10) + 1);
+			document.getElementById("flashcard").innerHTML = first_num + " + " + second_num;
+		}
+	</script>
+
+</head>
+<body>
+
+<h1 id="flashcard">start</h1>
+
+
+
+</body>
+</html>
